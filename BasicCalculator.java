@@ -5,3 +5,4 @@ public class BasicCalculator {
         System.out.println(a+b);
     }
 }
+    
