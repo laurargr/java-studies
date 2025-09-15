@@ -1,5 +1,8 @@
-import Day2.Exc8.*;
+import Day2.Exc9.*;
 import Day2.exc4.Student;
+
+import java.util.Arrays;
+
 public class Test {
     public static void main(String[] args) {
         // Tabuada tab = new Tabuada();
@@ -73,21 +76,29 @@ public class Test {
         // System.out.println(ComplexInicialization.y);
         // System.out.println(ComplexInicialization.z);
 
-        // Rectangle rec = new Rectangle(10, 12);
-        // Rectangle rec2 = new Rectangle(11, 13);
-        // System.out.println(rec.length);
-        // System.out.println(rec2.width);
+//         Rectangle rec = new Rectangle(10, 12);
+//         Rectangle rec2 = new Rectangle(rec);
+//         System.out.println(rec.length);
+//         System.out.println(rec2.width);
 
         // Account ac = new Account(-1, 2);
         // Account ab = new Account(2, 2);
         // System.out.println(ac.accountNumber);
         // System.out.println(ab.accountNumber);
 
-        Point p = new Point(11.2, 0);
-        Point p2 =  new Point(3, 2);
-        System.out.println(p.x);
-        System.out.println(p.y);
-        System.out.println(p2.x);
-        System.out.println(p2.y);
+//        Point p = new Point(11.2, 0);
+//        Point p2 =  new Point(3, 2);
+//        System.out.println(p.x);
+//        System.out.println(p.y);
+//        System.out.println(p2.x);
+//        System.out.println(p2.y);
+
+        String [] addName = new String[10];
+        for (int i = 0; i < 10; i++) {
+            addName[i] = "alice" + (i + 1);
+        }
+        Classroom classB = new Classroom("8avo B", addName);
+        System.out.println(classB.className);
+        System.out.println(Arrays.toString(classB.students));
     }
 }
