@@ -1,4 +1,4 @@
-import Day2.Exc9.*;
+import Day2.Exc10.*;
 import Day2.exc4.Student;
 
 import java.util.Arrays;
@@ -93,12 +93,17 @@ public class Test {
 //        System.out.println(p2.x);
 //        System.out.println(p2.y);
 
-        String [] addName = new String[10];
-        for (int i = 0; i < 10; i++) {
-            addName[i] = "alice" + (i + 1);
-        }
-        Classroom classB = new Classroom("8avo B", addName);
-        System.out.println(classB.className);
-        System.out.println(Arrays.toString(classB.students));
+//        String [] addName = new String[10];
+//        for (int i = 0; i < 10; i++) {
+//            addName[i] = "alice" + (i + 1);
+//        }
+//        Classroom classB = new Classroom("8avo B", addName);
+//        System.out.println(classB.className);
+//        System.out.println(Arrays.toString(classB.students));
+
+        Person p = new Person("laura", 26, "Brazil");
+        System.out.println(p.getName());
+        System.out.println(p.getAge());
+        System.out.println(p.getCountry());
     }
 }
