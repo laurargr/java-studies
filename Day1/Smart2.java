@@ -1,3 +1,4 @@
+package Day1;
 public class Smart2 {
     public void factorialWithFor(int a) {
         for ( int i = a; i > 1; i--) {

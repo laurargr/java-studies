@@ -1,3 +1,4 @@
+package Day1;
 public class BasicCalculator {
     public void sum2Plus2 () {
         int a = 2;

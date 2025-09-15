@@ -1,3 +1,4 @@
+package Day1;
 public class Tabuada {
     public void tabuadaOf1() {
         for (int i = 1; i <= 20; i++){

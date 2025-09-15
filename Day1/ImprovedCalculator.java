@@ -1,3 +1,4 @@
+package Day1;
 public class ImprovedCalculator {
     public int calculate(int a, char b, int c) {
         int result = 0;

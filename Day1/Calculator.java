@@ -1,3 +1,4 @@
+package Day1;
 public class Calculator {
 int result;
     public int sum(int a, int b) {

@@ -1,3 +1,4 @@
+package Day1;
 public class Smart {
     public void fibonacci (int x) {
         int a = 0;
