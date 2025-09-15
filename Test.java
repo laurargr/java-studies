@@ -1,4 +1,4 @@
-import Day2.Exc7.*;
+import Day2.Exc8.*;
 import Day2.exc4.Student;
 public class Test {
     public static void main(String[] args) {
@@ -83,5 +83,11 @@ public class Test {
         // System.out.println(ac.accountNumber);
         // System.out.println(ab.accountNumber);
 
+        Point p = new Point(11.2, 0);
+        Point p2 =  new Point(3, 2);
+        System.out.println(p.x);
+        System.out.println(p.y);
+        System.out.println(p2.x);
+        System.out.println(p2.y);
     }
 }
