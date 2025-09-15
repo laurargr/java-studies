@@ -1,4 +1,5 @@
-import Day2.Exc2.*;
+import Day2.Exc4.*;
+import Day2.exc4.Student;
 public class Test {
     public static void main(String[] args) {
         // Tabuada tab = new Tabuada();
@@ -51,5 +52,15 @@ public class Test {
         // Dog hope = new Dog("hope", "bown");
         // System.out.println(hope.name);
         // System.out.println(hope.color);
+        // Book a = new Book();
+        // Book b = new Book("null", "nuuu");
+        // Book c = new Book("null", "nuuuu", 40);
+        // System.out.println(a.title);
+        // System.out.println(b.outhor);
+        // System.out.println(c.price);
+        // Student lala = new Student(333, "lala", 10);
+        // System.out.println(lala.studentName);
+        // System.out.println(lala.studentId);
+        // System.out.println(lala.grade);
     }
 }
