@@ -1,4 +1,4 @@
-import Day2.Exc4.*;
+import Day2.Exc6.*;
 import Day2.exc4.Student;
 public class Test {
     public static void main(String[] args) {
@@ -39,28 +39,44 @@ public class Test {
 
         // Animal novocachorro = new Animal(String("hope", 2, "brown");
         // System.out.println(novocachorro.t));
+
         // Animal [] meusAnimais = new Animal[5];
         // Animal cachorro = new Animal("hope", 2);
         // Animal gato = new Animal("sasha", 7);
+
         // meusAnimais[0] = cachorro;
         // meusAnimais[1] = gato;
         // System.out.println(meusAnimais[0]);
         // System.out.println(meusAnimais[1]);
+        
         // Cat cat = new Cat();
         // System.out.println(cat.name);
         // System.out.println(cat.age);
         // Dog hope = new Dog("hope", "bown");
         // System.out.println(hope.name);
         // System.out.println(hope.color);
+
         // Book a = new Book();
         // Book b = new Book("null", "nuuu");
         // Book c = new Book("null", "nuuuu", 40);
+
         // System.out.println(a.title);
         // System.out.println(b.outhor);
         // System.out.println(c.price);
+
         // Student lala = new Student(333, "lala", 10);
         // System.out.println(lala.studentName);
         // System.out.println(lala.studentId);
         // System.out.println(lala.grade);
+
+        // System.out.println(ComplexInicialization.x);
+        // System.out.println(ComplexInicialization.y);
+        // System.out.println(ComplexInicialization.z);
+
+        // Rectangle rec = new Rectangle(10, 12);
+        // Rectangle rec2 = new Rectangle(11, 13);
+        // System.out.println(rec.length);
+        // System.out.println(rec2.width);
+        
     }
 }

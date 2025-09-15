@@ -5,11 +5,10 @@ public class Book {
     public String outhor;
     public int price;
     public Book () {
-
+        this("unknowm", "unknown", 0);
     }
     public Book (String title, String outhor) {
-        this.title = title;
-        this.outhor = outhor;
+        this();
     }
     public Book (String title, String outhor, int price) {
         this.title = title;

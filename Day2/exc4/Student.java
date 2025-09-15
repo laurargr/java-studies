@@ -6,10 +6,9 @@ public class Student {
     public int grade;
 
     public Student () {
-
+        this(10, "maria", 5);
     }
     public Student (int studentId, String studentName, int grade) {
-        this();
         this.studentId = studentId;
         this.studentName = studentName;
         this.grade = grade;
