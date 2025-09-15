@@ -1,4 +1,4 @@
-import Day2.Exc6.*;
+import Day2.Exc7.*;
 import Day2.exc4.Student;
 public class Test {
     public static void main(String[] args) {
@@ -77,6 +77,11 @@ public class Test {
         // Rectangle rec2 = new Rectangle(11, 13);
         // System.out.println(rec.length);
         // System.out.println(rec2.width);
-        
+
+        // Account ac = new Account(-1, 2);
+        // Account ab = new Account(2, 2);
+        // System.out.println(ac.accountNumber);
+        // System.out.println(ab.accountNumber);
+
     }
 }
