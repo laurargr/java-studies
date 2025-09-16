@@ -1,4 +1,4 @@
-import Day3.Exc12.*;
+import Day3.Exc13.*;
 
 public class Test {
     public static void main(String[] args) {
@@ -114,21 +114,28 @@ public class Test {
 //        System.out.println(setN.getAccountNumber());
 //        System.out.println(setB.getBalance());
 
-        Student laura =  new Student();
-        laura.setName("laura");
-        laura.setId(333);
-        System.out.println(laura.info());
-        laura.addGrade(9);
-        System.out.println(laura.info());
-        laura.addGrade(8);
-        System.out.println(laura.info());
-        laura.addGrade(10);
-        System.out.println(laura.info());
-        laura.addGrade(8);
-        System.out.println(laura.info());
-        laura.addGrade(9);
-        System.out.println(laura.info());
-        laura.addGrade(10);
+//        Student laura =  new Student();
+//        laura.setName("laura");
+//        laura.setId(333);
+//        System.out.println(laura.info());
+//        laura.addGrade(9);
+//        System.out.println(laura.info());
+//        laura.addGrade(8);
+//        System.out.println(laura.info());
+//        laura.addGrade(10);
+//        System.out.println(laura.info());
+//        laura.addGrade(8);
+//        System.out.println(laura.info());
+//        laura.addGrade(9);
+//        System.out.println(laura.info());
+//        laura.addGrade(10);
+
+        Book bible = new Book();
+        bible.setTitle("bible");
+        bible.setAuthor("unknown");
+        bible.setPrice(120);
+        bible.applyDiscont(22);
+        System.out.println(bible.newPrice());
 
     }
 }
