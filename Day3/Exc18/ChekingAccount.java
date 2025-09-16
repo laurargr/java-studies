@@ -1,7 +1,6 @@
 package Day3.Exc18;
 import Day3.Exc18.BankAccount;
 
-
 public class ChekingAccount extends BankAccount {
     public ChekingAccount() {
         super();

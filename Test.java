@@ -1,4 +1,4 @@
-import Day3.Exc18.*;
+import Day3.Exc19.*;
 
 public class Test {
     public static void main(String[] args) {
@@ -167,11 +167,15 @@ public class Test {
 //        Sport rugby = new Rugby();
 //        rugby.play();
 
-        BankAccount saves =  new ChekingAccount();
-       saves.deposit(15);
-       saves.showBalance();
-       saves.withdraw(2);
-       saves.showBalance();
+//        BankAccount saves =  new ChekingAccount();
+//       saves.deposit(15);
+//       saves.showBalance();
+//       saves.withdraw(2);
+//       saves.showBalance();
+
+        Shape square = new Square(5);
+        square.draw();
+        System.out.println(square.calculateArea());
 
     }
 }
