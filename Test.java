@@ -1,4 +1,7 @@
 import Day3.Exc15.*;
+import Day3.Exc16.Bicycle;
+import Day3.Exc16.Car;
+import Day3.Exc16.Vehicle;
 
 public class Test {
     public static void main(String[] args) {
@@ -135,7 +138,7 @@ public class Test {
 //        bible.setAuthor("unknown");
 //        bible.setPrice(120);
 //        bible.applyDiscont(22);
-//        System.out.println(bible.newPrice());
+//        System.out.println(bible.getPrice());
 
 //        Account seb = new Account();
 //        seb.setbalance(22);
@@ -147,10 +150,19 @@ public class Test {
 //        seb.withdraw(22);
 //        System.out.println(seb.getbalance());
 
-    Product phone = new Product();
-    phone.setName("Phone");
-    phone.setcode(125);
-    phone.setPrice(1250);
-    System.out.println(phone.applyDiscount(25));
+//    Product phone = new Product();
+//    phone.setName("Phone");
+//    phone.setcode(125);
+//    phone.setPrice(1250);
+//    phone.applyDiscount(21);
+//    System.out.println(phone.getPrice());
+
+        Vehicle test = new Vehicle();
+        test.speedUp(90);
+        Vehicle vehicleCar = new Car();
+        vehicleCar.speedUp(90);
+        Vehicle vehicleBike = new Bicycle();
+        vehicleBike.speedUp(90);
+
     }
 }

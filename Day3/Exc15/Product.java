@@ -3,8 +3,7 @@ package Day3.Exc15;
 public class Product {
     private String name;
     private int code;
-    private int price;
-    double percentage;
+    private double price;
     public Product () {
         this.name = "Unknown";
         this.code = 0;
@@ -22,15 +21,15 @@ public class Product {
     public int getCode() {
         return code;
     }
-    public void setPrice(int price) {
+    public void setPrice(double price) {
         this.price = price;
     }
-    public int getPrice() {
+    public double getPrice() {
         return price;
     }
-    public double applyDiscount(int percentage) {
-        this.percentage = percentage;
+    public void applyDiscount(int percentage) {
         double discount = (percentage / 100.0) * price;
-        return price - discount;
+        double finalP = price - discount;
+        this.price = finalP;
     }
 }
