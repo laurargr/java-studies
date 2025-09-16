@@ -1,4 +1,5 @@
-import Day2.Exc10.*;
+import Day2.Exc7.Account;
+import Day3.Exc11.*;
 import Day2.exc4.Student;
 
 import java.util.Arrays;
@@ -101,9 +102,20 @@ public class Test {
 //        System.out.println(classB.className);
 //        System.out.println(Arrays.toString(classB.students));
 
-        Person p = new Person("laura", 26, "Brazil");
-        System.out.println(p.getName());
-        System.out.println(p.getAge());
-        System.out.println(p.getCountry());
+//        Person p = new Person("laura", 26, "Brazil");
+//        System.out.println(p.getName());
+//        System.out.println(p.getAge());
+//        System.out.println(p.getCountry());
+
+//        BankAccount setN = new BankAccount(22252, 2557415);
+//        System.out.println(setN.getAccountNumber());
+//        System.out.println(setN.getBalance());
+
+//        BankAccount setN = new BankAccount();
+//        BankAccount setB = new BankAccount();
+//        setN.setAccountNumber(5245547);
+//        setB.setBalance(852741);
+//        System.out.println(setN.getAccountNumber());
+//        System.out.println(setB.getBalance());
     }
 }
