@@ -33,5 +33,9 @@ public class Account {
         balance = balance + adDeposit;
         return balance;
     }
+    public int withdraw (int reduceBalance) {
+        balance = balance - reduceBalance;
+        return balance;
+    }
 
 }

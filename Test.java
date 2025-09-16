@@ -1,4 +1,4 @@
-import Day3.Exc14.*;
+import Day3.Exc15.*;
 
 public class Test {
     public static void main(String[] args) {
@@ -144,6 +144,13 @@ public class Test {
 //        System.out.println(seb.getbalance());
 //        seb.deposit(22);
 //        System.out.println(seb.getbalance());
+//        seb.withdraw(22);
+//        System.out.println(seb.getbalance());
 
+    Product phone = new Product();
+    phone.setName("Phone");
+    phone.setcode(125);
+    phone.setPrice(1250);
+    System.out.println(phone.applyDiscount(25));
     }
 }
