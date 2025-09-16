@@ -1,8 +1,4 @@
-import Day2.Exc7.Account;
-import Day3.Exc11.*;
-import Day2.exc4.Student;
-
-import java.util.Arrays;
+import Day3.Exc12.*;
 
 public class Test {
     public static void main(String[] args) {
@@ -117,5 +113,22 @@ public class Test {
 //        setB.setBalance(852741);
 //        System.out.println(setN.getAccountNumber());
 //        System.out.println(setB.getBalance());
+
+        Student laura =  new Student();
+        laura.setName("laura");
+        laura.setId(333);
+        System.out.println(laura.info());
+        laura.addGrade(9);
+        System.out.println(laura.info());
+        laura.addGrade(8);
+        System.out.println(laura.info());
+        laura.addGrade(10);
+        System.out.println(laura.info());
+        laura.addGrade(8);
+        System.out.println(laura.info());
+        laura.addGrade(9);
+        System.out.println(laura.info());
+        laura.addGrade(10);
+
     }
 }
