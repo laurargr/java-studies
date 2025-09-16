@@ -1,7 +1,4 @@
-import Day3.Exc15.*;
-import Day3.Exc16.Bicycle;
-import Day3.Exc16.Car;
-import Day3.Exc16.Vehicle;
+import Day3.Exc17.*;
 
 public class Test {
     public static void main(String[] args) {
@@ -157,12 +154,18 @@ public class Test {
 //    phone.applyDiscount(21);
 //    System.out.println(phone.getPrice());
 
-        Vehicle test = new Vehicle();
-        test.speedUp(90);
-        Vehicle vehicleCar = new Car();
-        vehicleCar.speedUp(90);
-        Vehicle vehicleBike = new Bicycle();
-        vehicleBike.speedUp(90);
+//        Vehicle test = new Vehicle();
+//        test.speedUp(90);
+//        Vehicle vehicleCar = new Car();
+//        vehicleCar.speedUp(90);
+//        Vehicle vehicleBike = new Bicycle();
+//        vehicleBike.speedUp(90);
+//        Sport basketball = new Basketball();
+//        basketball.play();
+//        Sport football = new Football();
+//        football.play();
+//        Sport rugby = new Rugby();
+//        rugby.play();
 
     }
 }
