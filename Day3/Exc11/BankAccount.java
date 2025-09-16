@@ -13,12 +13,12 @@ public class BankAccount {
         this.accountNumber = accountNumber;
     }
     public int getAccountNumber() {
-    return accountNumber;
+        return accountNumber;
     }
     public void setBalance(int balance) {
-    this.balance = balance;
+        this.balance = balance;
     }
     public int getBalance() {
-    return balance;
+        return balance;
     }
 }
