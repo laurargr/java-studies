@@ -1,4 +1,4 @@
-import Day3.Exc13.*;
+import Day3.Exc14.*;
 
 public class Test {
     public static void main(String[] args) {
@@ -130,12 +130,20 @@ public class Test {
 //        System.out.println(laura.info());
 //        laura.addGrade(10);
 
-        Book bible = new Book();
-        bible.setTitle("bible");
-        bible.setAuthor("unknown");
-        bible.setPrice(120);
-        bible.applyDiscont(22);
-        System.out.println(bible.newPrice());
+//        Book bible = new Book();
+//        bible.setTitle("bible");
+//        bible.setAuthor("unknown");
+//        bible.setPrice(120);
+//        bible.applyDiscont(22);
+//        System.out.println(bible.newPrice());
+
+//        Account seb = new Account();
+//        seb.setbalance(22);
+//        seb.setAccountNumber(14962);
+//        seb.setHolder("laura");
+//        System.out.println(seb.getbalance());
+//        seb.deposit(22);
+//        System.out.println(seb.getbalance());
 
     }
 }

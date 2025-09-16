@@ -7,7 +7,10 @@ public class Book {
     private int percentage;
 
     public Book () {
-
+        this.price = 0;
+        this.percentage = 0;
+        this.author = "Unknown";
+        this.title = "Unknown";
     }
     public void setTitle(String title) {
         this.title = title;
