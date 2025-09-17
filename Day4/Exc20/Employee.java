@@ -16,5 +16,11 @@ public abstract class Employee {
     }
 
     public abstract void bonuses ();
+    public void setEmployeeRate(int employeeRate) {
+        this.employeeRate = employeeRate;
+    }
+    public int getEmployeeRate(){
+        return employeeRate;
+    }
 
 }

@@ -1,4 +1,4 @@
-import Day4.Exc20.*;
+import Day4.Exc24.*;
 
 public class Test {
     public static void main(String[] args) {
@@ -177,11 +177,18 @@ public class Test {
 //        square.draw();
 //        System.out.println(square.calculateArea());
 
-        Manager man = new Manager("pratap","menager", "lisbon", 3000);
-        man.bonuses();
-        man.managingProjects();
-        man.performanceReports("laura", 4);
-        Programmer pro = new Programmer("jonaphael", "senior programmer", "tallin", 6000);
-        pro.bonuses();
+//        Manager man = new Manager("Pratap", "manager", "Lisbon", 3000);
+//        man.bonuses();
+//        man.managingProjects();
+//        Programmer pro = new Programmer("jonaphael", "senior programmer", "tallin", 6000);
+//        pro.bonuses();
+//        man.performanceReports(pro, 4);
+
+        RailwayReservation rev = new RailwayReservation("laura", 1255, 12.05);
+        rev.selectSeat(22);
+        System.out.println(rev.reservationStatus());
+        ResortReservation revR = new ResortReservation("laura", 222, 12.08);
+        revR.setRoomNumber(12);
+        System.out.println(revR.reservationStatus());
     }
 }

@@ -14,7 +14,10 @@ public class Manager extends Employee {
         System.out.println("Bonus salary: " + bonusCalculation);
     }
 
-    public void performanceReports(String employeeName, int employeeRate) {
+    public void performanceReports(Employee employee, int employeeRate) {
+        employee.setEmployeeRate(employeeRate);
+
+        System.out.print("Hello" + employee.name);
 
         if (employeeRate == 0 || employeeRate == 1) {
             System.out.println("Poor performance");
