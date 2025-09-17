@@ -1,4 +1,4 @@
-import Day3.Exc19.*;
+import Day4.Exc20.*;
 
 public class Test {
     public static void main(String[] args) {
@@ -173,9 +173,15 @@ public class Test {
 //       saves.withdraw(2);
 //       saves.showBalance();
 
-        Shape square = new Square(5);
-        square.draw();
-        System.out.println(square.calculateArea());
+//        Shape square = new Square(5);
+//        square.draw();
+//        System.out.println(square.calculateArea());
 
+        Manager man = new Manager("pratap","menager", "lisbon", 3000);
+        man.bonuses();
+        man.managingProjects();
+        man.performanceReports("laura", 4);
+        Programmer pro = new Programmer("jonaphael", "senior programmer", "tallin", 6000);
+        pro.bonuses();
     }
 }
