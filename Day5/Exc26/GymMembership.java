@@ -9,7 +9,7 @@ public class GymMembership {
     public GymMembership(String name, int duration) {
         this.name = name;
         this.duration = duration;
-        this.type = "normal mermbership";
+        this.type = "Normal Membership";
     }
 
     public void setName(String name) {

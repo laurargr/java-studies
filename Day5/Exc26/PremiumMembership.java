@@ -1,5 +1,4 @@
 package Day5.Exc26;
-
 import Day5.Exc26.GymMembership;
 
 public class PremiumMembership extends GymMembership {
