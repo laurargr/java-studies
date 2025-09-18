@@ -7,13 +7,15 @@ public class User {
     String name;
     String gender;
     String age;
-    String [] userInfo = new String[3];
+    String[] userInfo = new String[3];
+
     public User() {
 
     }
+
     public void setInfo() {
         Scanner info = new Scanner(System.in);
-        for(int i = 0; i < 3; i++) {
+        for (int i = 0; i < 3; i++) {
             if (i == 0) {
                 System.out.println("Whats is your name?");
                 this.name = info.nextLine();
@@ -31,6 +33,7 @@ public class User {
             }
         }
     }
+
     public void getInfo() {
         System.out.println(Arrays.toString(userInfo));
     }
