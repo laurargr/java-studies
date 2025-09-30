@@ -265,10 +265,19 @@ public class Test {
 //      name.put(14, "jonaphael");
 //      System.out.println(name);
 
-    Map <String, Integer> numbers = new HashMap<>();
-    numbers.put("laura", 5363);
-    numbers.put("lara", 4343);
-    System.out.println(numbers.size());
+//    Map <String, Integer> numbers = new HashMap<>();
+//    numbers.put("laura", 5363);
+//    numbers.put("lara", 4343);
+//    System.out.println(numbers.size());
+
+    Map <Integer, String> name = new HashMap<>();
+    name.put(1, "Laura");
+    name.put(2, "Laura");
+    name.put(3, "Laura");
+    System.out.println(name);
+    Map<Integer, String> name2 = new HashMap<>(name);
+    System.out.println(name2);
+
 
     }
 }
