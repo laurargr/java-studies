@@ -259,5 +259,11 @@ public class Test {
 //      for (int i = 0; i < n.size(); i++) {
 //          System.out.println(n.get(i));
 //      }
+
+//      Map <Integer, String> name = new HashMap<>();
+//      name.put(11, "laura");
+//      name.put(14, "jonaphael");
+//      System.out.println(name);
+
     }
 }
