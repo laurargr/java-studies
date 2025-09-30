@@ -246,7 +246,13 @@ public class Test {
 //      Iterator<Integer> i = numbers.iterator();
 //      while (i.hasNext()) {
 //          System.out.println(i.next());
-//      }
+//
+//
+
+//      ArrayList <String> name = new ArrayList<>();
+//      Collections.addAll(name, "laura", "regina");
+//      name.add(1, "eu sou");
+//      System.out.println(name);
 //
     }
 }
