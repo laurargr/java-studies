@@ -301,10 +301,17 @@ public class Test {
 //    nameSurname.put("Jonaphael", "Aristil");
 //    System.out.println(nameSurname.containsKey("Laura"));
 
-    Map <Integer, Integer> idAndPhoneNumber = new HashMap<>();
-    idAndPhoneNumber.put(5452, 53768954);
-    idAndPhoneNumber.put(5251, 53623456);
-    System.out.println(idAndPhoneNumber.containsValue(53768954));
+//    Map <Integer, Integer> idAndPhoneNumber = new HashMap<>();
+//    idAndPhoneNumber.put(5452, 53768954);
+//    idAndPhoneNumber.put(5251, 53623456);
+//    System.out.println(idAndPhoneNumber.containsValue(53768954));
+
+    Map <String, Integer> nameAge = new HashMap<>();
+    nameAge.put("Laura", 12);
+    nameAge.put("Hope", 2);
+    nameAge.put("Phael", 14);
+    System.out.println(nameAge);
+    System.out.println(nameAge.entrySet());
 
   }
 }
