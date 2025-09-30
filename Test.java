@@ -2,6 +2,9 @@
 // import Day5.Exc26.GymMembership;
 // import Day5.Exc26.PremiumMembership;
 
+import Day10.Person;
+import Day4.Exc22.WebPage;
+
 import java.util.*;
 
 public class Test {
@@ -313,13 +316,27 @@ public class Test {
 //    System.out.println(nameAge);
 //    System.out.println(nameAge.entrySet());
 
+//    HashMap<String, String> capitalCities = new HashMap<String, String>();
+//    capitalCities.put("England", "London");
+//    capitalCities.put("Germany", "Berlin");
+//    capitalCities.put("Norway", "Oslo");
+//    capitalCities.put("USA", "Washington DC");
+//    System.out.println(capitalCities.values());
 
-    HashMap<String, String> capitalCities = new HashMap<String, String>();
-    capitalCities.put("England", "London");
-    capitalCities.put("Germany", "Berlin");
-    capitalCities.put("Norway", "Oslo");
-    capitalCities.put("USA", "Washington DC");
-    System.out.println(capitalCities.values());
+    Person person1 = new Person("laura", 26);
+    Person person2 = new Person("Phael", 27);
+    person1.setphoneNumber("43536373");
+    person1.setphoneNumber("43537373");
+    person2.setphoneNumber("56789098");
+
+    ArrayList <Person> p = new ArrayList<>();
+    p.add(person1);
+    p.add(person2);
+    for (int i = 0; i < p.size(); i++) {
+      p.get(i).print();
+    }
+
 
   }
 }
+
