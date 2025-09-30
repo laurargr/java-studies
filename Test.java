@@ -254,5 +254,10 @@ public class Test {
 //      name.add(1, "eu sou");
 //      System.out.println(name);
 //
+//      ArrayList <Integer> n = new ArrayList<>();
+//      Collections.addAll(n, 1,2,3,4,5,6,7,8,9);
+//      for (int i = 0; i < n.size(); i++) {
+//          System.out.println(n.get(i));
+//      }
     }
 }
