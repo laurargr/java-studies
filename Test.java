@@ -265,5 +265,10 @@ public class Test {
 //      name.put(14, "jonaphael");
 //      System.out.println(name);
 
+    Map <String, Integer> numbers = new HashMap<>();
+    numbers.put("laura", 5363);
+    numbers.put("lara", 4343);
+    System.out.println(numbers.size());
+
     }
 }
