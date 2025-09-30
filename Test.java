@@ -2,8 +2,6 @@
 // import Day5.Exc26.GymMembership;
 // import Day5.Exc26.PremiumMembership;
 
-import Day1.Animal;
-
 import java.util.*;
 
 public class Test {
@@ -279,14 +277,24 @@ public class Test {
 //    name.put(3, "Laura");
 //    System.out.println(name);
 //    Map<Integer, String> name2 = new HashMap<>(name);
+//    name2.remove(2);
 //    System.out.println(name2);
 
-    Map <String, Integer> numb = new HashMap<>();
-    numb.put("a", 12);
-    numb.put("b", 13);
-    numb.remove("a");
-    System.out.println(numb);
+//    Map <String, Integer> numb = new HashMap<>();
+//    numb.put("a", 12);
+//    numb.put("b", 13);
+//    numb.remove("a");
+//    System.out.println(numb);
 
+//    HashMap<String, String> capitalCities = new HashMap<String, String>();
+//    capitalCities.put("England", "London");
+//    capitalCities.put("Germany", "Berlin");
+//    capitalCities.put("Norway", "Oslo");
+//    capitalCities.put("USA", "Washington DC");
+//    HashMap<String, String> city = capitalCities;
+//    city.remove("Germany");
+//    System.out.println(capitalCities);
+//    System.out.println(city);
 
-    }
+  }
 }
