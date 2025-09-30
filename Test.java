@@ -2,7 +2,7 @@
 // import Day5.Exc26.GymMembership;
 // import Day5.Exc26.PremiumMembership;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class Test {
   public static void main(String[] args) {
@@ -230,5 +230,12 @@ public class Test {
     // GymMembership premium = new PremiumMembership("laura", 3);
     // premium.membershipFee();
     // System.out.println(premium.getType());
+
+//      ArrayList<String> collors = new ArrayList<>();
+//      String red = "red";
+//      String blue = "blue";
+//      collors.add(red);
+//      collors.add(blue);
+//      System.out.println(collors);
     }
 }
