@@ -296,5 +296,10 @@ public class Test {
 //    System.out.println(capitalCities);
 //    System.out.println(city);
 
+    Map <String, String> nameSurname = new HashMap<>();
+    nameSurname.put("Laura", "Ribeiro");
+    nameSurname.put("Jonaphael", "Aristil");
+    System.out.println(nameSurname.containsKey("Laura"));
+
   }
 }
