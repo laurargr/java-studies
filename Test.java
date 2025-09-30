@@ -2,6 +2,8 @@
 // import Day5.Exc26.GymMembership;
 // import Day5.Exc26.PremiumMembership;
 
+import Day1.Animal;
+
 import java.util.*;
 
 public class Test {
@@ -36,10 +38,11 @@ public class Test {
     // fac.factorialWithWhile(5);
     // fac.factorialWithDoWhile(1);
 
-    // Animal cachorro = new Animal("hope", 2);
-    // System.out.println(cachorro.getName());
-    // cachorro.setName("laura");
-    // System.out.println(cachorro.getName());
+//     Animal cachorro = new Animal("hope", 2);
+//     System.out.println(cachorro.getName());
+//     cachorro.setName("laura");
+//     System.out.println(cachorro.getName());
+//     Animal copy = new Animal(cachorro);
 
     // Animal novocachorro = new Animal(String("hope", 2, "brown");
     // System.out.println(novocachorro.t));
@@ -270,13 +273,19 @@ public class Test {
 //    numbers.put("lara", 4343);
 //    System.out.println(numbers.size());
 
-    Map <Integer, String> name = new HashMap<>();
-    name.put(1, "Laura");
-    name.put(2, "Laura");
-    name.put(3, "Laura");
-    System.out.println(name);
-    Map<Integer, String> name2 = new HashMap<>(name);
-    System.out.println(name2);
+//    Map <Integer, String> name = new HashMap<>();
+//    name.put(1, "Laura");
+//    name.put(2, "Laura");
+//    name.put(3, "Laura");
+//    System.out.println(name);
+//    Map<Integer, String> name2 = new HashMap<>(name);
+//    System.out.println(name2);
+
+    Map <String, Integer> numb = new HashMap<>();
+    numb.put("a", 12);
+    numb.put("b", 13);
+    numb.remove("a");
+    System.out.println(numb);
 
 
     }

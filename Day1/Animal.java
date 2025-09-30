@@ -12,6 +12,9 @@ public class Animal {
         this.age = age;
         this.color = color;
     }
+    public Animal (Animal animal) {
+        this.name = animal.getName();
+    }
     public String getName() {
         return name;
     }
