@@ -296,10 +296,15 @@ public class Test {
 //    System.out.println(capitalCities);
 //    System.out.println(city);
 
-    Map <String, String> nameSurname = new HashMap<>();
-    nameSurname.put("Laura", "Ribeiro");
-    nameSurname.put("Jonaphael", "Aristil");
-    System.out.println(nameSurname.containsKey("Laura"));
+//    Map <String, String> nameSurname = new HashMap<>();
+//    nameSurname.put("Laura", "Ribeiro");
+//    nameSurname.put("Jonaphael", "Aristil");
+//    System.out.println(nameSurname.containsKey("Laura"));
+
+    Map <Integer, Integer> idAndPhoneNumber = new HashMap<>();
+    idAndPhoneNumber.put(5452, 53768954);
+    idAndPhoneNumber.put(5251, 53623456);
+    System.out.println(idAndPhoneNumber.containsValue(53768954));
 
   }
 }
