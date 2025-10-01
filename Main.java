@@ -1,3 +1,4 @@
+import MiniCrud.FileM;
 import MiniCrud.Person;
 
 import java.util.ArrayList;
@@ -24,12 +25,14 @@ public class Main {
             System.out.println(ANSI_CYAN + "5. Exit \n" + ANSI_RESET);
 
             option = scanner.nextLine();
+            FileM fm = new FileM();
 
             if (option.equals("1")) {
                 System.out.print(ANSI_BLUE + "Name: " + ANSI_RESET);
                 String name = scanner.nextLine();
                 Person p = new Person(name);
                 names.add(p);
+                fm.createFile(names);
             }
             if (option.equals("2")) {
                 for (int i = 0; i < names.size(); i++) {
@@ -74,6 +77,7 @@ public class Main {
                     System.out.println(ANSI_RED + "person not found" + ANSI_RESET);
                 } else {
                     System.out.println(ANSI_GREEN + "Updated successfully!" + ANSI_RESET);
+                    fm.createFile(names);
                 }
             }
 
