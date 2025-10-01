@@ -323,18 +323,7 @@ public class Test {
 //    capitalCities.put("USA", "Washington DC");
 //    System.out.println(capitalCities.values());
 
-    Person person1 = new Person("laura", 26);
-    Person person2 = new Person("Phael", 27);
-    person1.setphoneNumber("43536373");
-    person1.setphoneNumber("43537373");
-    person2.setphoneNumber("56789098");
-
-    ArrayList <Person> p = new ArrayList<>();
-    p.add(person1);
-    p.add(person2);
-    for (int i = 0; i < p.size(); i++) {
-      p.get(i).print();
-    }
+//
 
 
   }
