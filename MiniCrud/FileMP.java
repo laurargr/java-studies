@@ -4,10 +4,10 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class FileM {
+public class FileMP {
     List <Person> person;
     File f = new File("people.txt");
-    public FileM () {
+    public FileMP() {
         person = new ArrayList<>();
         if (f.exists()){
             try {

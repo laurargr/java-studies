@@ -1,8 +1,8 @@
-import MiniCrud.FileM;
+import MiniCrud.FileMP;
 
 import java.util.Scanner;
 
-public class Main {
+public class MainPerson {
     public static void main (String [] args) {
         Scanner scanner = new Scanner(System.in);
         final String ANSI_RESET = "\u001B[0m";
@@ -21,7 +21,7 @@ public class Main {
             System.out.println(ANSI_CYAN + "5. Exit \n" + ANSI_RESET);
 
             option = scanner.nextLine();
-            FileM fm = new FileM();
+            FileMP fm = new FileMP();
 
             if (option.equals("1")) {
                 System.out.print(ANSI_BLUE + "Name: " + ANSI_RESET);
