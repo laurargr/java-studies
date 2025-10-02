@@ -9,19 +9,20 @@ public class FileM {
     File f = new File("people.txt");
     public FileM () {
         person = new ArrayList<>();
-        try {
-           FileReader fr = new FileReader(f);
-            BufferedReader br = new BufferedReader(fr);
-            String line;
-            while (!((line = br.readLine()) == null)) {
-                Person p = new Person(line);
-                person.add(p);
+        if (f.exists()){
+            try {
+                FileReader fr = new FileReader(f);
+                BufferedReader br = new BufferedReader(fr);
+                String line;
+                while (!((line = br.readLine()) == null)) {
+                    Person p = new Person(line);
+                    person.add(p);
+                }
+                br.close();
+            } catch (IOException e) {
+                throw new RuntimeException(e);
             }
-            br.close();
-        } catch (IOException e) {
-            throw new RuntimeException(e);
         }
-
     }
     public void createFile (String name) {
         Person p = new Person(name);
