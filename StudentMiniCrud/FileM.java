@@ -48,5 +48,29 @@ public class FileM {
         }
 
     }
+    public void showAll () {
+        try {
+            FileReader fr = new FileReader(file);
+            BufferedReader br = new BufferedReader(fr);
+            String line;
+            while ((line = br.readLine()) != null) {
+                System.out.println(line);
+            }
+        } catch (IOException e) {
+            System.out.println("error finding student list");
+        }
+
+    }
+    public void searchStudent(String id) {
+
+    }
+
+    public void updateGrade (String id, String grade){
+
+    }
+
+    public void delete(String name) {
+
+    }
 
 }
