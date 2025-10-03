@@ -37,10 +37,12 @@ public class MainStudent {
                 String id = scanner.nextLine();
                 System.out.println("Student grade: ");
                 String grade = scanner.nextLine();
+                fm.updateGrade(id, grade);
             }
             if (sc.equals("5")) {
-                System.out.println("Student id: ");
-                String id = scanner.nextLine();
+                System.out.println("Student name: ");
+                String name = scanner.nextLine();
+                fm.delete(name);
             }
             if (sc.equals("6")) {
                 System.exit(0);

@@ -4,10 +4,14 @@ public class Student {
     private String name;
     private String grade;
     private String id;
-    public Student(String name, String grade, String id) {
+
+    public Student(String name, String id) {
         this.name = name;
-        this.grade = grade;
         this.id = id;
+    }
+
+    public Student() {
+
     }
 
     public void setName(String name) {
