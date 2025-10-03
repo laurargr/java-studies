@@ -35,4 +35,18 @@ public class FileM {
         student = new ArrayList<>();
     }
 
+    public void Create (String name, String id) {
+        Student s = new Student(name, id);
+        student.add(s);
+        try {
+            FileWriter fw = new FileWriter(file, true);
+            BufferedWriter bw = new BufferedWriter(fw);
+            bw.write("\n" + name +" "+ id);
+            bw.close();
+        } catch (IOException e) {
+            System.out.println("error creating student");
+        }
+
+    }
+
 }
